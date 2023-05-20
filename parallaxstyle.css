@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=MuseoModerno:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,100&display=swap");
+
+@media (max-width: 568px) {
+  .p-img1 .p-img2 .p-img3 {
+    background-attachment: scroll;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.p-text1,
+.p-text3 {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 27px;
+  font-weight: 900;
+  width: 100%;
+  text-transform: uppercase;
+  color: rgb(180, 192, 245);
+}
+.p-text1 {
+  top: -22%;
+}
+.p-text3 {
+  color: beige;
+}
+
+.p-img1,
+.p-img2,
+.p-img3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  background-attachment: fixed;
+}
+body,
+html {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgb(0, 0, 0);
+}
+h2 {
+  text-transform: capitalize;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+.p-img1 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/06/17/17/north-america-1803504_960_720.jpg");
+  min-height: 100%;
+}
+.p-img2 {
+  background-image: url("https://images.pexels.com/photos/597909/pexels-photo-597909.jpeg");
+  min-height: 300px;
+}
+.p-img3 {
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/09/montreal-canada-night-city-4k_1538068139.jpg");
+  min-height: 400px;
+}
+section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: #282e34;
+  color: papayawhip;
+}
+.section-light h2 {
+  font-size: 40;
+  margin-bottom: 25px;
+}
+.p-text3 .border {
+  background-color: #282e3400;
+}
+.border img {
+  width: 900px;
+  height: 900px;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+i {
+  color: whitesmoke;
+  font-size: 24px;
+}
+a .margin {
+  padding: 14px;
+}
+.container span {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 391px) {
+  .border img {
+    width: 300px;
+    height: 300px;
+  }
+  .p-text1 {
+    top: 22%;
+  }
+  
+
+}
+@media only screen and (max-width: 413px) and (max-width: 825px) and (max-width:413){
+  .border img {
+    width: 300px;
+    height: 300px;
+  }
+  .p-text1 {
+    top: 22%;
+  }
+  
+
+}
